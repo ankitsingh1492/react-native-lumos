@@ -1,6 +1,6 @@
 # react-native-lumos
 
-optional
+Initial check
 
 ## Installation
 
