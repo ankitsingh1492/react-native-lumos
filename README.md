@@ -1,6 +1,7 @@
 # react-native-lumos
 
-Initial check
+A react native library to turn your phone into a magic wand. 
+If you are a potterhead then you know the [lumos](https://harrypotter.fandom.com/wiki/Wand-Lighting_Charm#:~:text=The%20Wand%2DLighting%20Charm%20(Lumos,light%20from%20the%20caster's%20wand.) charm.
 
 ## Installation
 
