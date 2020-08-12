@@ -3,8 +3,7 @@
 A react native library for potterheads to turn your :iphone: phone into a magic wand. 
 If you are a potterhead then you know about the [lumos](https://en.wikibooks.org/wiki/Muggles%27_Guide_to_Harry_Potter/Magic/Lumos) charm.
 
-:speaker: Android support coming soon !!!!! 
-
+Android minimum sdk version 21
 ## Installation
 
 ```sh
