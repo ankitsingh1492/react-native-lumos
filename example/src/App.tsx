@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import { StyleSheet, View, Text, Button } from 'react-native';
 import Lumos from 'react-native-lumos';
 
 export default function App() {
@@ -11,6 +11,8 @@ export default function App() {
 
   return (
     <View style={styles.container}>
+      <Button title="ON" onPress={() => Lumos.lumos()} />
+      <Button title="OFF" onPress={() => Lumos.nox()} />
       <Text>Result: {result}</Text>
     </View>
   );
