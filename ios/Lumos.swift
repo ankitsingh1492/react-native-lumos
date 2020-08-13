@@ -26,7 +26,6 @@ class Lumos: NSObject {
         do {
             try device.lockForConfiguration()
             device.torchMode = on ? .on : .off
-            // Optional thing you may want when the torch it's on, is to manipulate the level of the torch
             if on { try device.setTorchModeOn(level: AVCaptureDevice.maxAvailableTorchLevel.significand) }
             device.unlockForConfiguration()
         } catch {
